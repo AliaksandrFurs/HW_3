@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE suit SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="First suite">
+<test name="Check triangle">
+    <classes>
+        <class name="check_triange_test.CheckTriangleTest" />
+    </classes>
+</test>
+<test name="Detect triangle">
+    <classes>
+        <class name="detect_triangle_test.DetectTriangleTest" />
+    </classes>
+</test>>
+<test name="get square">
+    <classes>
+        <class name="get_square_test.GetSquareTest" />
+    </classes>>
+</test>
+</suite>
